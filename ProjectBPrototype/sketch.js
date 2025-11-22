@@ -1,7 +1,7 @@
 let cam;
 let mirror;
 
-function setulp() {
+function setup() {
   let canvas = createCanvas(640, 480, WEBGL);
   canvas.parent("p5-canvas-container");
 
