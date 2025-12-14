@@ -4,10 +4,10 @@ let step1 = 8, step2 = 12;
 let mirror;
 
 function setup() {
-  let canvas = createCanvas(windowWidth, windowHeight);
+  let canvas = createCanvas(640,480);
   canvas.parent("p5-canvas-container");
   cam = createCapture(VIDEO);
-  cam.size(windowWidth, windowHeight);
+  cam.size(640, 480);
   cam.hide();
 
   mirror = new SoftMirror(cam, step1);
