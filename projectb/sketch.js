@@ -5,7 +5,7 @@ let mirror;
 
 function setup() {
 
-  let canvas = create(640,480);;
+   let canvas = createCanvas(640, 480);
   canvas.parent("p5-canvas-container");
   cam = createCapture(VIDEO);
   cam.size(640,480);
