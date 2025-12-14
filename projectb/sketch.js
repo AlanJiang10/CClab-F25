@@ -7,7 +7,7 @@ function setup() {
   let canvas = create(windowWidth, windowHeight);;
   canvas.parent("p5-canvas-container");
   cam = createCapture(VIDEO);
-  cam.size(640, 480);
+  cam.size(windowWidth, windowHeight);
   cam.hide();
 
   mirror = new SoftMirror(cam, step1);
