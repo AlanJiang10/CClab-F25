@@ -12,7 +12,7 @@ function setup() {
 
 
   cam.hide();
-x
+
   mirror = new SoftMirror(cam, step1);
 }
 
